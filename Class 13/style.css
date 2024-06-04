@@ -1,0 +1,21 @@
+.container{
+    border: 5px solid red;
+display: grid;
+grid-template-columns: 220px 220px 400px;
+grid-template-columns: 1fr 1fr 2fr 1fr;
+column-gap: 100px;
+row-gap: 200px;
+}
+.box{
+    border: 5px solid green;
+    box-sizing: border-box;
+}
+#box-1{
+     grid-row-start: 1;
+     grid-row-end: 3;
+
+}
+#box-2{
+grid-column-start: 1;
+grid-column-end: 2;
+}
